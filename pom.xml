@@ -20,6 +20,14 @@
     <maven.version>3.3.9</maven.version>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub achurilov Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/achurilov/aws-secrets-filter</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.maven.shared</groupId>
